@@ -7,16 +7,16 @@ Problem Objective:
 Perform exploratory data analysis and hypothesis testing to gain a better understanding of the various factors that contribute to customer acquisition.
 
 Steps:
-•	Import data and investigate variables like Dt_Customer and Income, etc.
-•	Income values for a few customers are missing.
+Import data and investigate variables like Dt_Customer and Income, etc.
+Income values for a few customers are missing.
 Perform missing value imputation.
 Assume that the customers with similar education and marital status make the same yearly income, on average.
 clean the data before performing this. For data cleaning, look into the categories of education and marital status. 
-•	Create variables to populate the total number of children, age, and total spending.
+Create variables to populate the total number of children, age, and total spending.
 (From the number of purchases through the three channels, people can derive the total purchases.)
-•	Create box plots and histograms to understand the distributions and outliers. Perform outlier treatment.
-•	Use ordinal encoding and one hot encoding according to different types of categorical variables.
-•	Create a heatmap to showcase the correlation between different pairs of variables.
+Create box plots and histograms to understand the distributions and outliers. Perform outlier treatment.
+Use ordinal encoding and one hot encoding according to different types of categorical variables.
+Create a heatmap to showcase the correlation between different pairs of variables.
 
 •	Test the following hypotheses:
 1.	Older people are not as tech-savvy and probably prefer shopping in-store.
